@@ -137,8 +137,8 @@ Table: **users**
 | address       | TEXT                    |
 | profile_img   | VARCHAR                 |
 | status        | TINYINT                 |
-| created_at    | TIMESTAMP               |
-| deleted_at    | TIMESTAMP (Soft Delete) |
+| is_deleted   | TIMESTAMP               |
+
 
 ---
 
