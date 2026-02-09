@@ -89,10 +89,10 @@ $data=$obj->view();
         // $(document).ready(() => $('#myTable').DataTable());
 
         $(document).ready(function () {
-    $('#myTable').DataTable({
-        "lengthMenu": [[5, 10, 25, 50, 100], [5, 10, 25, 50, 100]]
-    });
-});
+            $('#myTable').DataTable({
+                "lengthMenu": [[5, 10, 25, 50, 100], [5, 10, 25, 50, 100]]
+            });
+        });
 
 
         function del(id) {
